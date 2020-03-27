@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:   salmon;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: lightblue;
+  }
+
+  .contact-form {
+    text-align: center;
+    color: black;
+    font: 70px italic bold, sans-serif;
+  }
+
+  * {
+      padding: 0;
+      margin: 0;
+  }
+
+  body {
+    background: url("./images/gtav-wallpaper.jpg");
+    background-position: center;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: lightgray;
+  }
+  
+  .fname, .lname, .subject {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+  }
+
+  .submit {
+      width: 75px;
+      height: 25px;
+      background: lightgreen;
+      border-radius: 20px;
+  }
