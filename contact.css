@@ -62,3 +62,10 @@ ul {
       background: lightgreen;
       border-radius: 20px;
   }
+
+  .contact-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 191, 0.3);;
+    
+  }
