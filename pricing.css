@@ -1,32 +1,11 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:   salmon;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: lightblue;
-  }
+
 
   body {
-      background: url("./images/gta-land.jpg");
+      background: url("./images/gta-action.jpg");
       background-position: center;
       background-repeat: no-repeat;
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
   }
 
   * {
@@ -35,8 +14,7 @@ ul {
   }
 
   .title {
-      color: violet;
-      font-family: 'Times New Roman', Times, serif;
+      color: black;
       font-size: 50px;
       text-align: center;
   }
@@ -63,10 +41,17 @@ ul {
     margin-top: 50px;
     margin-left: 50px;
     color: white;
+    opacity: 0.8;
+    transition: 0.3s;
+    box-shadow: 0px 0px rgba(0,0,0,0.3);
+  }
+
+  .popup:hover {
+    opacity: 1;
+    box-shadow: 3px 5px rgba(0,0,0,0.3);
   }
 
   .top-popup {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: solid red;
   }
 
@@ -78,13 +63,11 @@ ul {
   }  
 
   .type {
-    font-family: fantasy;
     text-align: center;
   }
 
   .description {
     margin-top: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .price {
@@ -115,3 +98,4 @@ ul {
     text-align: center;
     padding-top: 5px;
   }
+
